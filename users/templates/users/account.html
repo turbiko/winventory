@@ -81,12 +81,6 @@
           {% endfor %}
         </table>
 
-        <div class="settings">
-          <h3 class="settings__title">Projects</h3>
-          <a class="tag tag--pill tag--sub settings__btn tag--lg" href="{% url 'create-project' %}"><i
-              class="im im-plus"></i> Add Project</a>
-        </div>
-
         <table class="settings__table">
           {% for project in projects %}
           <tr>
