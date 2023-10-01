@@ -1,11 +1,6 @@
+{% load static %}
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title><!DOCTYPE html>
-{% load static %}
-<html>
-
 <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -52,13 +47,11 @@
     {% block content %}
 
     {% endblock content %}
-</body>
+
+    {% include 'footer.html' %}
+
 <script src="{% static 'uikit/app.js' %}"></script>
 <script src="{% static 'js/main.js' %}"></script>
-
-</html></title>
-</head>
-<body>
 
 </body>
 </html>
